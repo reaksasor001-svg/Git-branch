@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐻 Cozy Bear Shop - Your Favorite Bear Products</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">🐻 Cozy Bear Shop</div>
+            <ul class="nav-links">
+                <li><a href="#home" onclick="scrollToSection('home')">Home</a></li>
+                <li><a href="#shop" onclick="scrollToSection('shop')">Shop</a></li>
+                <li><a href="#about" onclick="scrollToSection('about')">About</a></li>
+                <li><a href="#contact" onclick="scrollToSection('contact')">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Cozy Bear Shop 🐻</h1>
+            <p>Adorable bears bringing comfort and joy to your home</p>
+            <button class="btn btn-primary" onclick="scrollToSection('shop')">Explore Our Shop</button>
+        </div>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop" class="shop">
+        <div class="container">
+            <h2>Our Bear Collection</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">🧸</div>
+                    <h3>Teddy Bear Classic</h3>
+                    <p class="price">$24.99</p>
+                    <p class="description">A soft and cuddly classic teddy bear perfect for all ages</p>
+                    <button class="btn btn-secondary">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">🐻</div>
+                    <h3>Brown Bear Friend</h3>
+                    <p class="price">$29.99</p>
+                    <p class="description">Adorable brown bear with embroidered features</p>
+                    <button class="btn btn-secondary">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">🐼</div>
+                    <h3>Panda Buddy</h3>
+                    <p class="price">$27.99</p>
+                    <p class="description">Cute panda bear with soft black and white fur</p>
+                    <button class="btn btn-secondary">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">🧸</div>
+                    <h3>Sleepy Bear</h3>
+                    <p class="price">$22.99</p>
+                    <p class="description">Perfect companion for bedtime snuggles</p>
+                    <button class="btn btn-secondary">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">🐻</div>
+                    <h3>Adventure Bear</h3>
+                    <p class="price">$31.99</p>
+                    <p class="description">Durable bear ready for outdoor adventures</p>
+                    <button class="btn btn-secondary">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">💙</div>
+                    <h3>Love Bear</h3>
+                    <p class="price">$26.99</p>
+                    <p class="description">Heart-shaped bear perfect for gift giving</p>
+                    <button class="btn btn-secondary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Why Choose Cozy Bear Shop?</h3>
+                    <p>Since 2020, we've been bringing joy and comfort to families worldwide through our carefully curated collection of bear products. Each bear is handpicked for quality and cuteness!</p>
+                    <ul class="features-list">
+                        <li>✨ Premium Quality Materials</li>
+                        <li>🚚 Free Shipping on Orders Over $50</li>
+                        <li>❤️ 100% Satisfaction Guarantee</li>
+                        <li>🌍 Eco-Friendly Packaging</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>📧 Email: info@cozybearshop.com</p>
+                    <p>📞 Phone: 1-800-BEAR-SHOP</p>
+                    <p>📍 Address: 123 Bear Lane, Cuddle City, CC 12345</p>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Twitter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Cozy Bear Shop. All rights reserved. Made with 💛 for bear lovers.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
